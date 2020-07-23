@@ -1,0 +1,116 @@
+﻿@font-face {
+    font-family: Lato-Regular;
+    src: url('Fonts/Lato/Lato-Regular.ttf');
+}
+
+@font-face {
+    font-family: Lato-Bold;
+    src: url('Fonts/Lato/Lato-Bold.ttf');
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url("Fondo.jpg");
+    background-color: #cccccc;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+body::-webkit-scrollbar {
+    width: 6px;
+}
+body::-webkit-scrollbar-track {
+    background: #DBDBD9;
+}
+body::-webkit-scrollbar-thumb {
+    background: #CF6400;
+}
+
+.navbar-nav > li > a {
+    color: #C4C4C4;
+}
+.navbar-nav > li.nav-item > a.nav-link:hover {
+    color: #CF6400;
+    border-bottom: 1px solid #CF6400;
+}
+.navbar-nav > li.activa > a {
+    border-bottom: 1px solid #CF6400;
+}
+
+.footer {
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    margin-top: auto;
+    width: 100%;
+    height: 80px;
+    background-image: url("Footer.jpg");
+}
+.header {
+    width: 100%;
+    height: 60px;
+    background-color: #FFFFFF;
+}
+.centro {
+    position: relative;
+    text-align: center;
+}
+
+
+.reportes {
+    background-color: #6C7AE0;
+    border-radius: 5%;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}.reporte {
+    font-size: 25px;
+    color: #C4C4C4;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.reporte:hover {
+    color: #CF6400;
+    text-decoration: none;
+}
+
+.container-table {
+    width: 100%;
+    padding: 33px 30px;
+}
+#form1 table {
+    border-radius: 10px;
+    border-collapse: collapse;
+    width: 100%;
+    overflow: hidden;
+}
+#form1 td, #form1 th {
+    padding: 8px;
+}
+#form1 tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+#form1 tr:hover {
+    background-color: #ddd;
+}
+#form1 th {
+    font-family: Lato-Bold;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #6C7AE0;
+    color: #FFF;
+    line-height: 1.4;
+}
+#form1 td {
+    border: 1px solid #ddd;
+    font-family: Lato-Regular;
+    color: #808080;
+    line-height: 1.4;
+}
+
+.boton {
+    margin: 30px;
+}
